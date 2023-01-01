@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header, .intro, .footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20%;
+}
+
+.header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: end;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.intro img {
+    width: auto;
+    height: 200px;
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+}
+
+.examples h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.examples_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.example img{
+    width: 150px;
+    height: auto;
+}
+
+.quote {
+    flex:1;
+    background-color: #E5E7EB;
+    padding: 50px 20%;
+}
+
+#quote_content{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote p{
+    text-align: right;
+}
+
+.signup {
+    flex:1;
+    margin: 5% 20%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+.signup h1 {
+    font-size: bold;
+}
+
+.signup button{
+    border-color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
